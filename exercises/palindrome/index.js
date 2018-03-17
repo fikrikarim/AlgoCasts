@@ -17,7 +17,6 @@
 function palindrome(str) {
     return str.split().every((char, i) => {
         result = char[i] === char[str.length - i - 1]
-        console.log(result);
         return result
     })
 }
